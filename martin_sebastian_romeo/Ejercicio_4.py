@@ -12,6 +12,15 @@ import scipy as sp
 
 
 def Fun_4 (file1, file2):
+    """
+    La funcion recibe dos archivos de audio, los lee, registra sus datos, y
+    permite realizar la convolucion de las señales por dos metodos distintos, dependiendo
+    de la cantidad de muestras de las señales.
+    Para señales con muestras mayor a 500, emplea sp.signal.fftconvolve
+    Para señales con muestras menores o iguales a 500, emplea np.convolve
+    
+    
+    
     
     #Extraigo los datos del audio 1
     audiodata, fs = sf.read(file1, dtype='float32')
