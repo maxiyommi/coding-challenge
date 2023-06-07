@@ -14,8 +14,8 @@ from Ejercicio_4 import Fun_4
     
 if __name__ == "__main__":
     #Elijo los archivos de audio para cargar en la funcion 4
-    filename_1 = r"C:\Users\Martin\OneDrive\Escritorio\coding-challenge-master\coding-challenge-master\InvFilter.wav"
-    filename_2 = r"C:\Users\Martin\OneDrive\Escritorio\coding-challenge-master\coding-challenge-master\record_SineSweepLog.wav"
+    filename_1 = "InvFilter.wav"
+    filename_2 = "record_SineSweepLog.wav"
     
     #Llamo a las funciones
     Fun_1()
