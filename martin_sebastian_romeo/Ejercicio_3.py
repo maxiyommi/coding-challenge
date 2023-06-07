@@ -11,8 +11,18 @@ import soundfile as sf
 # importo librerias
 
 def Fun_3():
-    #Cargo el archivo de audio
-    filename = r"C:\Users\Martin\OneDrive\Escritorio\coding-challenge-master\coding-challenge-master\Silbidos Tursiops.wav"
+    """
+    La funcion carga un archivo de audio (direccion del archivo), registra su data
+    y busca el valor maximo y minimo del audio
+    Grafica la señal, agregando una linea horizontal en el valor promedio
+    Devuelve los maximos y minimos
+    
+    """
+    
+    
+    
+    #Carga el archivo de audio 
+    filename = "Silbidos Tursiops.wav"
 
     #Extraigo los datos del audio
     data, fs = sf.read(filename, dtype='float32')  
