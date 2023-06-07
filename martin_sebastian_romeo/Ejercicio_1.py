@@ -11,6 +11,11 @@ from sympy import limit, integrate
 # importo librerias
 
 def Fun_1 ():
+    """
+    La funcion crea una funcion f(x) por partes usando Piecewise, la grafica, 
+    y calcula la energia y la potencia, devolviendo los valores obtenidos.
+    """
+    
     # Defino la variable simbolica
     x = sym.symbols ("x") 
 
