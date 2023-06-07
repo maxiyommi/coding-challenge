@@ -4,6 +4,13 @@ import matplotlib.pyplot as plt
 
 
 def Fun_2 ():
+    """
+    La funcion genera un array de 30 numeros aleatorios entre 0 y 10.
+    Luego crea dos array correspondientes a los indices de los valores maximos y minimos de la secuencia
+    Grafica la secuencia, resaltando los maximos y los minimos.
+    """
+    
+    
     #Genero la secuencia de 30 numeros aleatorios enteros entre 0 y 10
     num = np.random.randint(0, 10, 30)
     
