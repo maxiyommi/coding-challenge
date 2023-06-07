@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  6 16:27:54 2023
-
-@author: Martin
-"""
-
 import sympy as sym
 from sympy.plotting import plot
 from sympy import limit, integrate

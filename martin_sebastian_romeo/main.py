@@ -21,8 +21,6 @@ if __name__ == "__main__":
     Fun_1()
     Fun_2()
     Fun_3()
-    Fun_4(filename_1, filename_2)
+    print(Fun_4(filename_1, filename_2))
     
-
-    
-    
+ 
