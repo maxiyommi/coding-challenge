@@ -29,24 +29,28 @@ El repositorio tendrá la siguiente estructura:
 ``` bash
 git clone <url_del_repositorio>
 ```
-3. Crea una nueva rama utilizando tu nombre y apellido:
+3. Ingresar a la carpeta clonada.
+``` bash
+cd <nombre_de_carpeta>
+```
+4. Crea una nueva rama utilizando tu nombre y apellido:
 ``` bash
 git checkout -b <nombre_alumno>-<apellido_alumno>
 ```
-4. Crea una carpeta con tu nombre y apellido en minúsculas separados por guiones bajos.
+5. Crea una carpeta con tu nombre y apellido en minúsculas separados por guiones bajos.
 ``` bash
 mkdir <nombre_alumno>_<apellido_alumno>
 ```
-5. Agrega tu solución dentro de la carpeta personal que creaste.
+6. Agrega tu solución dentro de la carpeta personal que creaste.
     * Asegúrate de utilizar el nombre del ejercicio, por ejemplo: ejercicio_1.py.
-6. Haz commit de los cambios y empuja tu rama al repositorio remoto.
+7. Haz commit de los cambios y empuja tu rama al repositorio remoto.
 ``` bash
 git add .
 git commit -m "Agregando solución de <nombre_alumno>"
 git push origin <nombre_alumno>-<apellido_alumno>
 ```
-7. En tu Fork del repositorio, abre un nuevo Pull Request: Ve a la página de tu Fork en GitHub y verás un mensaje resaltado que indica que has hecho recientemente un push a tu rama. Haz clic en el botón "Compare & pull request" que aparece junto al mensaje.
-8. Envía el Pull Request: Haz clic en el botón "Create Pull Request" para enviar tu Pull Request al repositorio original.
+8. En tu Fork del repositorio, abre un nuevo Pull Request: Ve a la página de tu Fork en GitHub y verás un mensaje resaltado que indica que has hecho recientemente un push a tu rama. Haz clic en el botón "Compare & pull request" que aparece junto al mensaje.
+9. Envía el Pull Request: Haz clic en el botón "Create Pull Request" para enviar tu Pull Request al repositorio original.
 
 ¡Eso es todo! Has enviado con éxito un Pull Request al repositorio original. Los revisores podrán ver tus cambios, comentar y fusionarlos con el repositorio principal si los consideran apropiados.
 
