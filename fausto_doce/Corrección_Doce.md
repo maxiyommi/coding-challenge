@@ -6,7 +6,7 @@
 
 ## Objetivos del challenge
 
-### Nota: 8 (provisoria)
+### Nota: 8 
 
 
 ### Consignas

@@ -6,7 +6,7 @@
 
 ## Objetivos del challenge
 
-### Nota
+### Nota: 9
 
 
 ### Consignas
