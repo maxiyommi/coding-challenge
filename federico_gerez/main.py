@@ -11,7 +11,7 @@ from Ejercicio_3 import lectura_wav, maximo_minimo, grafico_valor_promedio
 from Ejercicio_4 import convolucion_señales
 
 #Ejercicio 1
-salida = funcion(x)
+salida = funcion(x) 
 graficar_funcion(salida)
 energia_señal(salida)
 potencia_señal(salida)
