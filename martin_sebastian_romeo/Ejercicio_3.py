@@ -49,5 +49,6 @@ def Fun_3():
 
     maxi = print("El valor maximo es =",v_max)
     mini = print("El valor minimo es =",v_min)
+    plt.show()
     
     return(maxi, mini)

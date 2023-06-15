@@ -30,5 +30,6 @@ def Fun_2 ():
     plt.legend(loc = "best") #Agrego la leyenda, haciendo que elija la mejor posicion donde ubicarse
     plt.xlabel("rango")
     plt.ylabel("amplitud")
+    plt.show()
     return()
 
