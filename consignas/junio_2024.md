@@ -1,4 +1,4 @@
-# Coding Challenge - Python (Junio-2023)
+# Coding Challenge - Python (Junio-2024)
 
 <center><img src="https://raw.githubusercontent.com/maxiyommi/signal-systems/master/LogoPractica.png" width="300"/></center>
 
